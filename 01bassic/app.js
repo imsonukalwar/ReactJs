@@ -4,7 +4,7 @@
 // header1.style.color='white';
 // header1.style.fontSize="25px"
 
-const { createElement } = require("react");
+// const { createElement } = require("react");
 
 // const header2=document.createElement('h1');
 // header2.innerText="hello sonu";
@@ -36,7 +36,7 @@ const react={
         for (let key in style) {
         element.style[key] = style[key];
     }
-        return name;
+        return element;
     }
 }
 const header1 =react.createElement('h1', {backgroundColor: "blue", color: "white", fontSize: "25px"}, "hello sonu");
