@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
 
-let [counter,setCounter]=useState(5)/*here  consthas [] two paramiter first is conter =(it is a veriable) and setcounter  is a function */
+let [counter,setCounter]=useState(5)/*here  let [] two paramiter first is conter =(it is a veriable) and setcounter  is a function */
   //let counter=5;
 
   const addval=()=>{

@@ -30,17 +30,17 @@
 
 
 const react={
-    createElement:function(tag,style,name){
+    createElement: function(tag,styles,name){
         const element =document.createElement(tag);
         element.innerText=name;
-        for (let key in style) {
-        element.style[key] = style[key];
+        for (let key in styles) {
+        element.style[key] = styles[key];
     }
         return element;
     }
 }
 const header1 =react.createElement('h1', {backgroundColor: "blue", color: "white", fontSize: "25px"}, "hello sonu");
-
-// const d=document.getElementById('root');
-// d.append(header1);
-// d.append(header2);
+const header2 =react.createElement('h1', {backgroundColor: "blue", color: "white", fontSize: "25px"}, "hello sonu");
+const d=document.getElementById('root');
+d.append(header1);
+d.append(header2);
