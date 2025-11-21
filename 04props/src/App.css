@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+.product{
+    border: 1px solid red;
+    width: 500px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 40px;
+    background-color: aqua;
+    color: black;
+}
