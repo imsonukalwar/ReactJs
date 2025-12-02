@@ -1,0 +1,29 @@
+.product {
+    width: 400px;
+    height:200px;
+    /* display: flex; */
+    flex-direction: row;
+    border: 2px solid rgb(238, 236, 236);
+    border-radius: 15px;
+    margin: 15px;
+    color: brown;
+    text-align: center;
+    color: rgb(239, 241, 243);
+}
+.t{
+    display: flex;
+    color: white;
+    background:rgb(27, 26, 26);
+}
+*{
+    background: rgb(71, 70, 70);
+}
+.cut{
+    text-decoration: line-through;
+}
+a{
+    color: chocolate;
+    text-decoration: none;
+    display:block;
+    margin-top: 15px;
+}
