@@ -1,5 +1,9 @@
 import './App.css'
+import { useState } from 'react';
 function App() {
+
+  let [count,setcount]=useState(0) //if usestate return two array valuue after deconstruction arr replace from two retun arrays
+  //here setcount is a method
   function cl(){
     console.log("hello sonu");
     
@@ -17,6 +21,9 @@ function App() {
     console.log("submitted");
     
   }
+  function inc(){
+    setcount(count+1);
+  }
   return (
       <div>
         <button onClick={cl}>Click</button>
@@ -26,6 +33,8 @@ function App() {
         <form onSubmit={fsb}>
           <button>Subbmit</button>
         </form>
+        <h2>{count}</h2>
+        <button onClick={inc}>increment</button>
     </div>
   )
 }
